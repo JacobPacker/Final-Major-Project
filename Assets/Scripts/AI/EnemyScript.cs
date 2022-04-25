@@ -10,9 +10,14 @@ public class EnemyScript : MonoBehaviour
     protected StateEnum State;
     protected Target[] PotentialTargets;
     [HideInInspector]
+    [Header("Targets")]
     public Target target;
-
+    Animator anim;
+    [Header("Rigidbodies")]
+    private Rigidbody rb;
+    private Vector3 vel;
     protected float NextState;
+    //public Transform playerTransform;
     
     void Awake()
     {
@@ -20,6 +25,11 @@ public class EnemyScript : MonoBehaviour
         PotentialTargets = FindObjectsOfType<Target>();
         target = PotentialTargets[Random.Range(0, PotentialTargets.Length)];
         State = StateEnum.RUN;
+    }
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
 
     
@@ -65,7 +75,15 @@ public class EnemyScript : MonoBehaviour
                 }
                 break;
         }
-
+        
+        if (Agent.desiredVelocity.magnitude > 0.01f )
+        {
+            anim.SetBool("Walk", true);
+        }
+        else
+        {
+            anim.SetBool("Walk", false);
+        }
         transform.position += Agent.desiredVelocity * Time.deltaTime;
     }
 
