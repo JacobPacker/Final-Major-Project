@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerInZone : MonoBehaviour
 {
-
-    bool playerInZone;
+    [HideInInspector]
+    public bool playerInArea;
     // Start is called before the first frame update
     void Start()
     {

@@ -19,8 +19,13 @@ public class WeaponIK : MonoBehaviour
     
     void Awake()
     {
-        playerInZone = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PlayerInZone>();
+        playerInZone = GameObject.FindGameObjectWithTag("Enemy Collider").GetComponent<PlayerInZone>();
 
+        inRange = playerInZone.playerInArea;
+    }
+
+    void Update()
+    {
         inRange = playerInZone.playerInArea;
     }
 
@@ -37,6 +42,10 @@ public class WeaponIK : MonoBehaviour
         float targetDistance = targetDirection.magnitude;
         
         if(targetDistance < distanceLimit)
+        {
+            blendOut += distanceLimit - targetDistance;
+        }
+        if (inRange == false)
         {
             blendOut += distanceLimit - targetDistance;
         }
@@ -64,11 +73,15 @@ public class WeaponIK : MonoBehaviour
     }
     private void AimAtTarget(Transform bone, Vector3 targetPosition, float weight)
     {
-        Vector3 aimDirection = aimTransform.forward;
-        Vector3 targetDirection = targetPosition - aimTransform.position;
-        Quaternion aimTowards = Quaternion.FromToRotation(aimDirection, targetDirection);
-        Quaternion blendedRotation = Quaternion.Slerp(Quaternion.identity, aimTowards, weight);
-        bone.rotation = blendedRotation * bone.rotation;
+        if (inRange == true)
+        {
+            Vector3 aimDirection = aimTransform.forward;
+            Vector3 targetDirection = targetPosition - aimTransform.position;
+            Quaternion aimTowards = Quaternion.FromToRotation(aimDirection, targetDirection);
+            Quaternion blendedRotation = Quaternion.Slerp(Quaternion.identity, aimTowards, weight);
+            bone.rotation = blendedRotation * bone.rotation;
+        }
+        
     }
 
     public void SetTargetTransform(Transform target)
