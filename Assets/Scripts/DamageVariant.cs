@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class Damage : MonoBehaviour
+public class DamageVariant : MonoBehaviour
 {
     public float health = 50f;
     public GameObject DestroyedVersion;
-    public float yDistance = 1f;
     public void TakeDamage(float amount)
     {
         health -= amount;
@@ -16,7 +15,9 @@ public class Damage : MonoBehaviour
 
     void Die()
     {
-        Instantiate(DestroyedVersion, new Vector3(transform.position.x, transform.position.y + yDistance, transform.position.z), transform.rotation);
+        Instantiate(DestroyedVersion, new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation);
         Destroy(gameObject);
     }
 }
+
+
