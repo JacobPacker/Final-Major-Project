@@ -14,7 +14,10 @@ public class SceneChangerScript : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
-
+    public void Level2()
+    {
+        SceneManager.LoadScene("Level2");
+    }
     public void QuitGame()
     {
         Debug.Log("QUIT!");
