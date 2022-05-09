@@ -13,6 +13,8 @@ public class FleshGunScript : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    public LayerMask layer;
+
     //private Animator anim;
 
     // Update is called once per frame
@@ -37,9 +39,14 @@ public class FleshGunScript : MonoBehaviour
         muzzleFlash.Play();
 
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+
+
+
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, layer ))
         {
             Debug.Log(hit.transform.name);
+        
+
 
             Damage target = hit.transform.GetComponent<Damage>();
             if (target != null)
