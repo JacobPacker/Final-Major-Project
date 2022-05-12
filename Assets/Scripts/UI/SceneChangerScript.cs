@@ -18,9 +18,14 @@ public class SceneChangerScript : MonoBehaviour
     {
         SceneManager.LoadScene("Level2");
     }
+    public void Menu3D()
+    {
+        SceneManager.LoadScene("Menu 3D");
+    }
     public void QuitGame()
     {
         Debug.Log("QUIT!");
         Application.Quit();
     }
+
 }
