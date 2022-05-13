@@ -16,16 +16,20 @@ public class WeaponIK : MonoBehaviour
     public float weight = 1.0f;
     private float angleLimit = 180.0f;
     public float distanceLimit = 1.5f;
-    
+
+    public GameObject enemyCollisionGameObject;
+
     void Awake()
     {
         playerInZone = GameObject.FindGameObjectWithTag("Enemy Collider").GetComponent<PlayerInZone>();
 
-        inRange = playerInZone.playerInArea;
+        inRange = false;
     }
 
     void Update()
     {
+        playerInZone = enemyCollisionGameObject.GetComponent<PlayerInZone>();
+
         inRange = playerInZone.playerInArea;
     }
 
