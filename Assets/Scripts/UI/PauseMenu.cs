@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GamePaused = false;
-
+    public GameObject Button;
     public GameObject pauseMenuUI;
     // Update is called once per frame
     void Update()
@@ -19,6 +20,7 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 Pause();
+                Button.GetComponent<Button>().Select();
             }
         }
     }

@@ -9,6 +9,7 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         Button.GetComponent<Button>().Select();
         //PlaySound();
     }
