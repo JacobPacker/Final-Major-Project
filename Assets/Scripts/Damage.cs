@@ -19,7 +19,7 @@ public class Damage : MonoBehaviour
     void Die()
     {
         Instantiate(DestroyedVersion, new Vector3(transform.position.x, transform.position.y + yDistance, transform.position.z), transform.rotation);
-        death.Play ();
+        death.Play();
         Destroy(gameObject);
     }
 }
