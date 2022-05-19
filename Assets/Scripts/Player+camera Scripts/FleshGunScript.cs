@@ -14,6 +14,7 @@ public class FleshGunScript : MonoBehaviour
     private float nextTimeToFire = 0f;
 
     public LayerMask layer;
+    public AudioSource gunShot;
 
     //private Animator anim;
 
@@ -25,6 +26,7 @@ public class FleshGunScript : MonoBehaviour
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
+            gunShot.Play();
             Shoot();
             //anim.SetBool("Shoot", true);
         }

@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Enemy Collider
   - InteractiveOblect
+  - Light
   layers:
   - Default
   - TransparentFX

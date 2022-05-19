@@ -3,12 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    public float health = 50f;
-    public GameObject DestroyedVersion;
-    public float yDistance = 1f;
+    public float maxHealth = 100f;
+    public float health;
+
+    public HealthBar healthBar;
+
+    void Start()
+    {
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
     public void TakeDamage(float amount)
     {
-        //health -= amount;
+        health -= amount;
+        healthBar.SetHealth(health);
         if (health <= 0f)
         {
             Die();

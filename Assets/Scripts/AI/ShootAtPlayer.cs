@@ -16,15 +16,12 @@ public class ShootAtPlayer : MonoBehaviour
 
     public LayerMask layer;
     public GameObject enemyCollisionGameObject;
+    public AudioSource gunShot;
 
 
     void Awake()
     {
         //playerInZone = GameObject.FindGameObjectWithTag("Enemy Collider").GetComponent<PlayerInZone>();
-
-
-
-
         inRange = false;
     }
 
@@ -39,6 +36,7 @@ public class ShootAtPlayer : MonoBehaviour
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
+            gunShot.Play();
         }
     }
 
