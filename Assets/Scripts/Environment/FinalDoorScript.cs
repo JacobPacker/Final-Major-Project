@@ -27,19 +27,22 @@ public class FinalDoorScript : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (!isOpen)
+        if (col.tag == "Player")
         {
-            isOpen = true;
-            doorAnim.Play("Final door", 0, 0.0f);
-            doorAnim2.Play("Final Other door", 0, 0.0f);
-            music.Pause();
-            foreach (Light obj in lights)
+            if (!isOpen)
             {
-                obj.enabled = false;
+                isOpen = true;
+                doorAnim.Play("Final door", 0, 0.0f);
+                doorAnim2.Play("Final Other door", 0, 0.0f);
+                music.Pause();
+                foreach (Light obj in lights)
+                {
+                    obj.enabled = false;
+                }
+                RenderSettings.ambientLight = Color.black;
+                fearOfGod.Play();
+                godsAnim.Play("GodSpawn", 0, 0.0f);
             }
-            RenderSettings.ambientLight = Color.black;
-            fearOfGod.Play();
-            godsAnim.Play("GodSpawn", 0, 0.0f);
         }
     }
     void Update()
