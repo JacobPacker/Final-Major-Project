@@ -43,7 +43,8 @@ public class FleshGunScript : MonoBehaviour
         RaycastHit hit;
 
 
-
+        print("layer=" + layer);
+        
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, layer ))
         {
             Debug.Log(hit.transform.name);
