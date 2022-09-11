@@ -455,7 +455,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Enemy modeler:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Game produced by
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Alfie Richards (creator of the cow model)
+  m_text: Comw model creator(creator of the cow model)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -1838,7 +1838,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Environment programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -1974,7 +1974,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Directed by
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -2110,7 +2110,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Environment animator:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -2246,7 +2246,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'UI programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -2382,7 +2382,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Screenplay by
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -2518,7 +2518,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Audio programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -2654,7 +2654,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'A game made by
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -3464,7 +3464,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Light animator:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -4568,7 +4568,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Player animator:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -4654,7 +4654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2836312422313368488, guid: 666e82879bdccb64d91698f021eeab3f, type: 3}
       propertyPath: m_Name
-      value: Jakes_Title_Screen
+      value: Js_Title_Screen
       objectReference: {fileID: 0}
     - target: {fileID: 2836312422313368488, guid: 666e82879bdccb64d91698f021eeab3f, type: 3}
       propertyPath: m_IsActive
@@ -4765,7 +4765,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'General programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -4901,7 +4901,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Sound effects created/edited by
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -5173,7 +5173,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Environment modeler:
 
-    Jacob Packer
+    J P
 
 '
   m_isRightToLeft: 0
@@ -5445,7 +5445,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Player programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -5579,7 +5579,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jacob Packer
+  m_text: J P
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -6392,7 +6392,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'AI programmers:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
@@ -6528,7 +6528,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Enemy  animator:
 
-    Jacob Packer'
+    J P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}
   m_sharedMaterial: {fileID: 5442047183973229121, guid: 4497f8cd81753634e92a1ee02219342b, type: 2}

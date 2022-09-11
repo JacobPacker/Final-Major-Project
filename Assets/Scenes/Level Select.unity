@@ -244,7 +244,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3351195023662849038, guid: d03614e433152344c90f28194f327661, type: 3}
       propertyPath: m_Name
-      value: Jakes_Ambient_Thing-1
+      value: Js_Ambient_Thing-1
       objectReference: {fileID: 0}
     - target: {fileID: 5658699598847522003, guid: d03614e433152344c90f28194f327661, type: 3}
       propertyPath: m_RootOrder

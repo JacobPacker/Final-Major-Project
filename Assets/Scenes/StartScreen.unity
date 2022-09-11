@@ -1167,7 +1167,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2836312422313368488, guid: 666e82879bdccb64d91698f021eeab3f, type: 3}
       propertyPath: m_Name
-      value: Jakes_Title_Screen
+      value: Js_Title_Screen
       objectReference: {fileID: 0}
     - target: {fileID: 2836312422313368502, guid: 666e82879bdccb64d91698f021eeab3f, type: 3}
       propertyPath: m_RootOrder

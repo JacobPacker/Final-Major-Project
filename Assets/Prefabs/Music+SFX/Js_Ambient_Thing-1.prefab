@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5658699598847522003}
   - component: {fileID: 8602641742128169115}
   m_Layer: 0
-  m_Name: Jakes_Ambient_Thing-1
+  m_Name: Js_Ambient_Thing-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

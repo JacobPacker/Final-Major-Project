@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1626241267983656540}
   - component: {fileID: 1626241267983656543}
   m_Layer: 0
-  m_Name: Jakes_Thing-2
+  m_Name: Js_Thing-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 02917331a02124649b70a802c86fac5c, type: 2}
-  m_audioClip: {fileID: 8300000, guid: db3f2f6c4e26bad468598dced1299bbf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dc93d6c19c65be6498fbcdacc6853828, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
